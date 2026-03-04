@@ -1,0 +1,11 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
