@@ -18,14 +18,15 @@
     gap: 24px;
   }
 
-  &__call {
+  &__call,
+  &__menu-toggle {
     cursor: pointer;
+    max-width: 24px;
   }
 
   &__menu-toggle {
     background: none;
     padding: 0;
     border: none;
-    cursor: pointer;
   }
 }
