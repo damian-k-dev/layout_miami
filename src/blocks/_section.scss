@@ -1,8 +1,14 @@
+@use '../styles/utils/' as *;
+
 .section {
   padding-top: 96px;
   padding-inline: 20px;
 
   &--first {
     padding-top: 64px;
+  }
+
+  &--last {
+    padding-inline: 0;
   }
 }
