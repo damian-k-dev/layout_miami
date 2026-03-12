@@ -22,7 +22,6 @@
   }
 
   @include respond-up(1260px) {
-    padding-top: 120px;
     padding-inline: 120px;
   }
 }
