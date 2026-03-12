@@ -42,7 +42,8 @@
               alt=""
             />
           </a>
-          <button
+          <a
+            href="#menu"
             class="header__menu-toggle"
             aria-label="Open menu"
           >
@@ -50,9 +51,93 @@
               src="./src/images/menu-icon.svg"
               alt=""
             />
-          </button>
+          </a>
         </div>
       </header>
+      <nav
+        id="menu"
+        class="navigation"
+      >
+        <div class="navigation__actions-wrapper">
+          <a
+            href="#header"
+            class="navigation__logo"
+          >
+            <img
+              class="navigation__logo-img"
+              src="./src/images/bose-logo-icon.svg"
+              alt="Bose logo"
+            />
+          </a>
+          <a
+            href="#"
+            class="navigation__close-menu"
+            aria-label="Close menu"
+          >
+            <img
+              class="navigation__close-icon"
+              src="./src/images/close-menu-icon.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a
+              class="navigation__link"
+              href="#"
+            >
+              home
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a
+              class="navigation__link"
+              href="#"
+            >
+              recommended
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a
+              class="navigation__link"
+              href="#"
+            >
+              categories
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a
+              class="navigation__link"
+              href="#"
+            >
+              how to buy
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a
+              class="navigation__link"
+              href="#"
+            >
+              contacts
+            </a>
+          </li>
+        </ul>
+        <div class="navigation__order-info">
+          <a
+            class="navigation__phone"
+            href="tel:+1 234 5555-55-55"
+          >
+            +1 234 5555-55-55
+          </a>
+          <a
+            href="tel:+1 234 5555-55-55"
+            class="navigation__order-link"
+          >
+            call to order
+          </a>
+        </div>
+      </nav>
       <main class="main">
         <section class="hero">
           <img
