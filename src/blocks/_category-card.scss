@@ -34,20 +34,6 @@
     margin-top: 16px;
   }
 
-  &--reverse-grid {
-    .category-card__images {
-      grid-template-columns: 1fr 2fr;
-    }
-
-    .category-card__image:first-child {
-      aspect-ratio: 1 / 1;
-    }
-
-    .category-card__image:last-child {
-      aspect-ratio: 2 / 1;
-    }
-  }
-
   @include respond-up(744px) {
     &__images {
       grid-template-columns: 2fr 1fr;
@@ -59,6 +45,20 @@
 
     &__title {
       font-size: 24px;
+    }
+
+    &--reverse-grid {
+      .category-card__images {
+        grid-template-columns: 1fr 2fr;
+      }
+
+      .category-card__image:first-child {
+        aspect-ratio: 1 / 1;
+      }
+
+      .category-card__image:last-child {
+        aspect-ratio: 2 / 1;
+      }
     }
   }
 }
