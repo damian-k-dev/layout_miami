@@ -1,3 +1,5 @@
+@use '../styles/utils/' as *;
+
 .button {
   width: 100%;
   display: flex;
@@ -7,6 +9,7 @@
   border-radius: 40px;
   background-color: black;
   color: white;
+  margin-inline: auto;
 
   font-family: Inter, sans-serif;
   font-weight: 700;
@@ -18,5 +21,13 @@
     background-color: #fff;
     color: #292929;
     border: 3px solid #292929;
+  }
+
+  @include respond-up(744px) {
+    max-width: 392px;
+  }
+
+  @include respond-up(1260px) {
+    max-width: 324px;
   }
 }
