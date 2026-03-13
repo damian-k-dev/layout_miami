@@ -16,12 +16,16 @@
     padding-top: 120px;
     padding-inline: 72px;
 
-    &--first {
-      padding-top: 120px;
+    &--last {
+      padding-inline: 0;
     }
   }
 
   @include respond-up(1260px) {
     padding-inline: 120px;
+
+    &--last {
+      padding-inline: 0;
+    }
   }
 }
