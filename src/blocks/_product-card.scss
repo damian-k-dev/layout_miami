@@ -1,3 +1,5 @@
+@use '../styles/utils/' as *;
+
 .product-card {
   width: 100%;
   max-width: 280px;
@@ -8,6 +10,7 @@
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0;
+    margin-top: 32px;
   }
 
   &__type {
@@ -26,5 +29,13 @@
     line-height: 140%;
     letter-spacing: 0;
     margin-top: 12px;
+  }
+
+  @include respond-up(744px) {
+    max-width: 392px;
+  }
+
+  @include respond-up(1260px) {
+    max-width: 324px;
   }
 }
