@@ -1,3 +1,5 @@
+@use '../styles/utils/' as *;
+
 .title {
   font-family: Inter, sans-serif;
   font-weight: 800;
@@ -7,6 +9,11 @@
   letter-spacing: -1.5px;
   vertical-align: middle;
 
+  &__line {
+    display: flex;
+    flex-direction: column;
+  }
+
   &--secondary {
     font-family: Inter, sans-serif;
     font-weight: 700;
@@ -15,5 +22,13 @@
     line-height: 1;
     letter-spacing: -1.5px;
     text-align: center;
+  }
+
+  @include respond-up(744px) {
+    font-size: 40px;
+  }
+
+  @include respond-up(1260px) {
+    font-size: 48px;
   }
 }
