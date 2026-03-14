@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
+    overflow: hidden;
   }
 
   &__image {
@@ -16,6 +17,11 @@
     aspect-ratio: 1 / 1;
     object-fit: cover;
     display: block;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &--offset-left .category-card__image:first-child {
