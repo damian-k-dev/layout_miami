@@ -36,8 +36,8 @@
     list-style: none;
 
     font-family: Inter, sans-serif;
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-md;
     line-height: 1;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -70,8 +70,8 @@
 
   &__phone {
     font-family: Inter, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-base;
     line-height: 27px;
     vertical-align: middle;
   }
@@ -79,8 +79,8 @@
   &__order-link {
     display: inline-block;
     font-family: Inter, sans-serif;
-    font-weight: 700;
-    font-size: 12px;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-xs;
     line-height: 16px;
     letter-spacing: 2px;
     vertical-align: middle;

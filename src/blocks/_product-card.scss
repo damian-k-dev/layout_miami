@@ -6,8 +6,8 @@
 
   &__title {
     font-family: Inter, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-base;
     line-height: 140%;
     letter-spacing: 0;
     margin-top: 32px;
@@ -15,8 +15,8 @@
 
   &__type {
     font-family: Inter, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-base;
     line-height: 140%;
     letter-spacing: 0;
     margin-top: 8px;
@@ -24,8 +24,8 @@
 
   &__price {
     font-family: Inter, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-base;
     line-height: 140%;
     letter-spacing: 0;
     margin-top: 12px;
