@@ -1,6 +1,7 @@
 @use '../styles/utils/' as *;
 
 .button {
+  box-sizing: border-box;
   width: 100%;
   display: flex;
   align-items: center;
@@ -16,18 +17,17 @@
   font-size: $font-size-base;
   line-height: 1.4;
   text-decoration: none;
+  border: 3px solid transparent;
 
-  &--secondary {
+  &:hover {
     background-color: #fff;
     color: #292929;
-    border: 3px solid #292929;
+    border-color: #292929;
   }
 
-  @include respond-up(744px) {
-    max-width: 392px;
-  }
-
-  @include respond-up(1260px) {
-    max-width: 324px;
+  &:active {
+    background-color: black;
+    color: white;
+    border-color: transparent;
   }
 }
