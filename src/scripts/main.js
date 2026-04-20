@@ -3,8 +3,8 @@ function handleFormSubmit(e) {
   e.preventDefault();
 }
 
-const btn = document.querySelector('.form-contact__button');
-btn.addEventListener('click', handleFormSubmit);
+const form = document.querySelector('.form-contact');
+form.addEventListener('submit', handleFormSubmit);
 
 window.addEventListener('hashchange', () => {
   if (window.location.hash === '#menu') {
