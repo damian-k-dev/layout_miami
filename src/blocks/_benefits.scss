@@ -38,6 +38,6 @@
   }
 
   @include respond-up(744px) {
-    grid-template-columns: repeat(2, 411px);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
